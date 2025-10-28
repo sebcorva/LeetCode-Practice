@@ -13,7 +13,7 @@ class linkedList:
         new_node = Node(data) #create a new node
         #.next is an attribute of the node class that points to the next node connected to it
         new_node.next = self.head #point the new node to the previous head to connect the new node to the linked list
-        self.head = new_node #update the head to the new node
+        self.head = new_node #update the head to the new node≤
     
     #print the linked list
     def print_linked_list(self):
